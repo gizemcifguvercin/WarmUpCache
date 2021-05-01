@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/gcifguvercin/.dotnet/store/|arch|/|tfm|",
+      "/Users/gcifguvercin/.nuget/packages"
+    ]
+  }
+}

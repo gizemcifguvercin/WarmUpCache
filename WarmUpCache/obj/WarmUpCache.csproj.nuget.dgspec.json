@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gcifguvercin/Desktop/WarmUpCache/WarmUpCache/WarmUpCache.csproj": {}
+  },
+  "projects": {
+    "/Users/gcifguvercin/Desktop/WarmUpCache/WarmUpCache/WarmUpCache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gcifguvercin/Desktop/WarmUpCache/WarmUpCache/WarmUpCache.csproj",
+        "projectName": "WarmUpCache",
+        "projectPath": "/Users/gcifguvercin/Desktop/WarmUpCache/WarmUpCache/WarmUpCache.csproj",
+        "packagesPath": "/Users/gcifguvercin/.nuget/packages/",
+        "outputPath": "/Users/gcifguvercin/Desktop/WarmUpCache/WarmUpCache/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gcifguvercin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.0-beta2, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.0-beta2, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.0-beta2, )"
+            },
+            "Hangfire.MemoryStorage": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.0-dev-00839, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
